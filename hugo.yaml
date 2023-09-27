@@ -52,7 +52,7 @@ params:
   moto: "Super Fast, and Flexible"
   description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
   disable_theme_toggle: false
-  disable_stay_uptodate: false
+  disable_stay_uptodate: true
 
   p1:
     heading: "Our mission"
@@ -112,24 +112,20 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
-      name: About
+      name: 关于
       url: /about/
       weight: 20
     - identifier: categories
       pre: dropdown
-      name: Categories
+      name: 产品
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
+    # - identifier: dropdown
+    #   pre: complexdropdown
+    #   name: Dropdown
+    #   weight: 40
     - identifier: contact
-      name: Contact
+      name: 联系我们
       url: /contact/
       weight: 50
   categories:
@@ -162,23 +158,23 @@ menu:
       weight: 30
   footer:
     - identifier: about
-      name: About
+      name: 关于
       url: /about/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
+    # - identifier: blog
+    #   name: Blog
+    #   url: /categories/blog/
+    #   weight: 20
+    # - identifier: news
+    #   name: News
+    #   url: /categories/news/
+    #   weight: 30
+    # - identifier: prose
+    #   name: Prose
+    #   url: /prose/
+    #   weight: 40
     - identifier: contact
-      name: Contact
+      name: 联系我们
       url: /contact/
       weight: 50
 
