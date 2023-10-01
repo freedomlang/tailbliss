@@ -7,8 +7,8 @@ enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
 paginate: 9
-darkmode_js:
-  - assets/js/darkmode.js
+# darkmode_js:
+#   - assets/js/darkmode.js
 enableInlineShortcodes: true
 
 markup:
@@ -51,7 +51,7 @@ params:
   og_image: /images/tailbliss-cover.png
   moto: "公司简介"
   description: "欢迎来到菡美进出口有限公司，您可信赖的进出口贸易合作伙伴。我们为全球客户提供高品质的贸易解决方案，助您实现全球市场的成功。从优质产品采购到高效的物流服务，我们致力于满足您的需求。"
-  disable_theme_toggle: false
+  disable_theme_toggle: true
   disable_stay_uptodate: true
 
   p1:
@@ -132,9 +132,9 @@ menu:
       url: /contact/
       weight: 50
   categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: 'products-2'
+      name: "Active pharmaceutical Ingredient"
+      url: /products-2/
       weight: 9
     - identifier: 'products-7'
       name: "Intermediates products "
@@ -147,11 +147,11 @@ menu:
     - identifier: 'products-1'
       name: "화장품 완료"
       url: /products-1/
-      weight: 12
+      weight: 30
     - identifier: 'products-3'
       name: "Other Nucleotides"
       url: /products-3/
-      weight: 20
+      weight: 15
     - identifier: 'products-4'
       name: "Fluoro & Deoxy & Basic Nucleosides"
       url: /products-4/

@@ -6,6 +6,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      screens: {
+        cmd: { max: '750px' },
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',

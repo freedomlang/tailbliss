@@ -6,8 +6,8 @@ language: zh
 description: Intermediates products 
 ---
 
-<section class="lg:pb-24">
-<div class="max-w-screen-md px-4 mx-auto">3
+<section class="lg:pb-24 overflow-auto">
+<div class="max-w-screen-md px-4 mx-auto cmd:px-0">
 <table class="border-collapse table-auto w-full text-sm">
 <thead>
     <tr class="bg-slate-5">
@@ -127,7 +127,6 @@ description: Intermediates products
     <td class="border border-slate-200 dark:border-slate-600 p-4 pl-8 text-slate-500 dark:text-slate-400">3-(3-(trifluoromethyl)phenyl)propan-1-ol</td>
     <td class="whitespace-nowrap border border-slate-200 dark:border-slate-600 p-4 pl-8 text-slate-500 dark:text-slate-400">78573-45-2</td>
   </tr>
-  `
 <tr>
   <td
   rowspan="3"
@@ -2028,7 +2027,6 @@ description: Intermediates products
     16133-25-8
   </td>
 </tr>
-`
 
 </table>
 

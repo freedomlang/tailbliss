@@ -7,7 +7,7 @@ description: Other Modified Nucleosides
 ---
 
 <section class="lg:pb-24">
-  <div class="max-w-screen-md px-4 mx-auto">
+  <div class="max-w-screen-md px-4 mx-auto cmd:px-0">
 <table class="border-collapse table-auto w-full text-sm">
 <thead>
     <tr class="bg-slate-5">
